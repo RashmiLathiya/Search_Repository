@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tailored Apps"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#043D92"
+        android:textSize="30dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/background"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/github_icon"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Seach Repository"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+
+            android:fontFamily="sans-serif-condensed"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_arrow_forward"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
